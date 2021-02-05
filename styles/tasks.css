@@ -1,0 +1,24 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    font-size: 5.25rem;
+    letter-spacing: 0.45rem;
+    text-align: center;
+}
+
+:any-link {
+    color: #FF427A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

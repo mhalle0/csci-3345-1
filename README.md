@@ -1,1 +1,2 @@
-# csci-3345-1
+# Web Application Design - Student Page
+Task homework site for Web Apps, Spring 2021.
