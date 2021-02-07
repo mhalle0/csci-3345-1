@@ -4,14 +4,28 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.01rem;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 27%;
+    margin-right: 27%;
 }
 
 h1 {
     font-size: 5.25rem;
     letter-spacing: 0.45rem;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+    margin-bottom: 0rem;
+}
+
+h3:before {
+    content: "> ";
 }
 
 :any-link {
@@ -21,4 +35,35 @@ h1 {
 
 a:hover {
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: " »  ";
+}
+
+ol {
+    list-style: none;
+    counter-reset: task-counter;
+    margin-left: -1rem;
+}
+
+li {
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+
+#li-task {
+    counter-increment: task-counter
+}
+
+#li-task:before {
+    content: counter(task-counter) " » ";
+}
+
+#links {
+    text-align: center;
+}
+
+#project-link {
+    font-weight: 300;
 }
