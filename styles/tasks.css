@@ -52,18 +52,21 @@ li {
     margin-bottom: 0.15rem;
 }
 
-#li-task {
-    counter-increment: task-counter
-}
-
-#li-task:before {
-    content: counter(task-counter) " » ";
+button {
+    background-color: transparent;
+    color: #FF427A;
+    font-size: 16px;
+    border: 2px solid #FF427A; 
 }
 
 #links {
     text-align: center;
 }
 
-#project-link {
+#sublink {
     font-weight: 300;
+}
+
+#canvas-box {
+    text-align: center;
 }
